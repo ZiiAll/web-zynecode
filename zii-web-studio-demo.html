@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#F9F7F4">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Zyne Code">
+<meta name="keywords" content="jasa website, landing page, website bisnis, portfolio, katalog produk, desain website, Zyne Code">
+<meta name="description" content="Jasa pembuatan website profesional, landing page, katalog produk, portfolio, dan website bisnis. Zyne Code adalah partner terpercaya untuk transformasi digital bisnis Anda.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Zyne Code — Solusi Website Profesional untuk Bisnis">
+<meta property="og:description" content="Jasa pembuatan website profesional, landing page, katalog produk, portfolio, dan website bisnis untuk UMKM dan brand modern.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80">
+<meta property="og:url" content="https://zynecode.example.com/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Zyne Code — Solusi Website Profesional untuk Bisnis">
+<meta name="twitter:description" content="Jasa pembuatan website profesional, landing page, katalog produk, portfolio, dan website bisnis.">
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80">
+<title>Zyne Code — Solusi Website Profesional untuk Bisnis</title>
+<style>
+:root{--bg:#F9F7F4;--card:#EBE4D0;--card2:#E8DFCA;--text:#3D3D3D;--muted:#7A7A7A;--accent:#9DAE94;--accent2:#8B7355;--line:#D9D0C3}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;background:#F9F7F4;color:var(--text);line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;z-index:20;background:rgba(249,247,244,.75);backdrop-filter:blur(10px);border-bottom:1px solid rgba(217,208,195,.4);box-shadow:0 2px 8px rgba(0,0,0,.04)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:900;font-size:22px}.logo span{color:var(--accent2)}
+.navlinks{display:flex;gap:25px;color:var(--muted);font-size:14px}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 20px;border-radius:8px;background:var(--accent);font-weight:800;border:0;cursor:pointer;color:white}
+.btn.secondary{background:rgba(157,174,148,.12);border:2px solid #5A5A5A;color:#3D3D3D;font-weight:800}
+.hero{padding:100px 0 80px;text-align:center}
+.badge{display:inline-block;padding:8px 13px;border:1px solid var(--accent);background:rgba(157,174,148,.1);border-radius:999px;color:var(--accent2);font-size:13px;margin-bottom:20px}
+h1{font-size:clamp(42px,7vw,76px);line-height:1.02;letter-spacing:-2px;max-width:850px;margin:auto;color:var(--text)}
+.gradient{color:#6B8E72;font-weight:900}
+.hero p{max-width:700px;margin:24px auto;color:var(--muted);font-size:18px}
+.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:28px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:55px}
+.stat{padding:22px;background:#EBE4D0;border:1px solid var(--line);border-radius:8px}.stat b{font-size:28px;color:var(--accent2)}.stat small{display:block;color:var(--muted);margin-top:8px}
+section{padding:80px 20px}.section-title{text-align:center;max-width:700px;margin:0 auto 40px}.section-title h2{font-size:40px;letter-spacing:-1px;color:var(--accent2)}.section-title p{color:var(--muted);margin-top:10px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:rgba(235,228,208,.6);backdrop-filter:blur(10px);border:1px solid rgba(217,208,195,.5);border-radius:8px;padding:28px;position:relative;transition:all 0.3s ease}
+.card.featured{border:2px solid rgba(157,174,148,.6);box-shadow:0 4px 12px rgba(157,174,148,.15)}.card:hover{transform:translateY(-5px);background:rgba(235,228,208,.8);border-color:rgba(217,208,195,.7)}
+.card h3{font-size:22px;color:var(--accent2)}.price{font-size:38px;font-weight:900;margin:15px 0;color:var(--accent)}
+.card ul{list-style:none;margin:20px 0}.card li{padding:8px 0;color:var(--text)}.card li::before{content:"✓";color:var(--accent);font-weight:bold;margin-right:9px}
+.tag{position:absolute;right:18px;top:18px;background:var(--accent);color:white;padding:5px 9px;border-radius:999px;font-size:11px;font-weight:800}
+.services .card{min-height:210px}.icon{font-size:30px;margin-bottom:12px}
+.portfolio{display:grid;grid-template-columns:repeat(1,1fr);gap:20px}.project{min-height:300px;border-radius:8px;padding:0;display:flex;flex-direction:column;background:rgba(235,228,208,.6);backdrop-filter:blur(10px);border:1px solid rgba(217,208,195,.5);overflow:hidden;position:relative;transition:all 0.3s ease}
+.project-badge{position:absolute;top:12px;right:12px;background:var(--accent2);color:white;padding:6px 12px;border-radius:999px;font-size:11px;font-weight:700;z-index:10}
+.project:nth-child(2){background:rgba(232,223,202,.6)}.project:nth-child(3){background:rgba(240,235,222,.6)}.project:nth-child(4){background:rgba(237,230,216,.6)}.project:hover{transform:translateY(-5px);background:rgba(235,228,208,.85);border-color:rgba(217,208,195,.7)}
+.project-image{height:160px;background:linear-gradient(135deg,#D9D0C3,#C5BAA7);display:flex;align-items:center;justify-content:center;color:#7A7A7A;font-size:48px;font-weight:300}
+.project-content{padding:20px;flex:1;display:flex;flex-direction:column}.project-content p{color:var(--muted);font-size:13px;margin:0}.project-content h3{font-size:24px;color:var(--accent2);margin:8px 0 12px}
+.btn-link{display:inline-block;padding:10px 16px;background:var(--accent);color:white;border-radius:6px;text-align:center;font-weight:600;font-size:14px;margin:12px 20px 20px;text-decoration:none;transition:opacity 0.3s}
+.process{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.step{padding:24px;border:1px solid var(--line);border-radius:8px;background:#EBE4D0;text-align:center}.num{font-size:12px;color:var(--accent);font-weight:900}.step h3{color:var(--accent2);margin:12px 0 8px}.step p{font-size:14px;color:var(--muted)}
+.cta{padding:55px;border-radius:8px;background:#EBE4D0;border:1px solid var(--line);text-align:center}.cta h2{font-size:42px;color:var(--accent2)}.cta p{color:var(--muted);margin:12px auto 25px;max-width:650px}
+footer{padding:30px 0;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+footer .foot{display:flex;justify-content:space-between;gap:20px}
+@media(max-width:800px){.navlinks{display:none}.grid,.stats,.process{grid-template-columns:1fr}.portfolio{grid-template-columns:1fr}h1{letter-spacing:-2px}.hero{padding-top:70px}.cta{padding:35px 20px}.cta h2{font-size:32px}footer .foot{flex-direction:column}}
+</style>
+</head>
+<body>
+<nav><div class="container nav">
+<a class="logo" href="#">Zyne<span>Code</span></a>
+<div class="navlinks"><a href="#layanan">Layanan</a><a href="#harga">Harga</a><a href="#portfolio">Portfolio</a><a href="#proses">Proses</a></div>
+<a class="btn" href="#kontak">Pesan Website</a>
+</div></nav>
+
+<header class="hero">
+<div class="container">
+<div class="badge">⚡ Website modern • cepat • responsive</div>
+<h1>Bikin Bisnis Kamu <span class="gradient">Terlihat Profesional</span> di Internet.</h1>
+<p>Jasa pembuatan website untuk UMKM, toko, jasa, personal brand, portfolio, dan bisnis lokal. Desain premium tanpa harus punya tim IT.</p>
+<div class="actions"><a class="btn" href="#harga">Lihat Paket</a><a class="btn secondary" href="#portfolio">Lihat Demo</a></div>
+<div class="stats">
+<div class="stat"><b>100%</b><small>Responsive di HP & Desktop</small></div>
+<div class="stat"><b>SEO</b><small>Struktur siap ditemukan Google</small></div>
+<div class="stat"><b>Fast</b><small>Ringan & nyaman digunakan</small></div>
+</div>
+</div>
+</header>
+
+<section id="layanan" class="services"><div class="container">
+<div class="section-title"><h2>Layanan Website</h2><p>Semua yang dibutuhkan untuk membuat bisnis terlihat lebih terpercaya.</p></div>
+<div class="grid">
+<div class="card"><div class="icon">🌐</div><h3>Website Bisnis</h3><p>Profil usaha, layanan, keunggulan, kontak, dan CTA untuk mendapatkan pelanggan.</p></div>
+<div class="card"><div class="icon">🛍️</div><h3>Katalog Produk</h3><p>Tampilkan produk, harga, foto, kategori, dan tombol pesan langsung.</p></div>
+<div class="card"><div class="icon">🎯</div><h3>Landing Page</h3><p>Halaman fokus untuk promosi produk, jasa, event, atau iklan digital.</p></div>
+<div class="card"><div class="icon">👤</div><h3>Portfolio</h3><p>Personal branding untuk freelancer, kreator, mahasiswa, dan profesional.</p></div>
+<div class="card"><div class="icon">📱</div><h3>WhatsApp Integration</h3><p>Tombol WhatsApp agar calon pelanggan bisa langsung menghubungi pemilik bisnis.</p></div>
+<div class="card"><div class="icon">⚙️</div><h3>Maintenance</h3><p>Update konten, perbaikan minor, dan bantuan setelah website selesai.</p></div>
+</div>
+</div></section>
+
+<section id="harga"><div class="container">
+<div class="section-title"><h2>Paket Harga</h2><p>Pilih paket sesuai kebutuhan. Harga dapat kamu ubah sesuai strategi jualanmu.</p></div>
+<div class="grid">
+<div class="card"><h3>Starter</h3><div class="price">Rp499K</div><ul><li>1–3 halaman</li><li>Desain responsive</li><li>WhatsApp button</li><li>Form kontak</li><li>Basic SEO</li></ul><a class="btn" href="#kontak">Pilih Starter</a></div>
+<div class="card featured"><span class="tag">PALING LARIS</span><h3>Business</h3><div class="price">Rp999K</div><ul><li>Hingga 7 halaman</li><li>Desain premium</li><li>Katalog produk</li><li>WhatsApp & CTA</li><li>Basic SEO</li><li>1x revisi</li></ul><a class="btn" href="#kontak">Pilih Business</a></div>
+<div class="card"><h3>Premium</h3><div class="price">Rp1,99JT</div><ul><li>Website custom</li><li>Hingga 12 halaman</li><li>Katalog & fitur lanjutan</li><li>SEO lebih lengkap</li><li>Prioritas pengerjaan</li><li>2x revisi</li></ul><a class="btn" href="#kontak">Pilih Premium</a></div>
+</div>
+</div></section>
+
+<section id="portfolio"><div class="container">
+<div class="section-title"><h2>Contoh Portfolio</h2><p>Demo konsep yang bisa kamu tunjukkan kepada calon klien.</p></div>
+<div class="portfolio">
+<div class="project"><span class="project-badge">Demo Project</span><div class="project-image"></div><div class="project-content"><p>UMKM / Food</p><h3>RasaNusa</h3><p>Website restoran & katalog menu.</p></div><a class="btn-link" href="#kontak">Lihat Website</a></div>
+<div class="project"><span class="project-badge">Demo Project</span><div class="project-image"></div><div class="project-content"><p>Fashion Store</p><h3>UrbanWear</h3><p>Landing page toko fashion modern.</p></div><a class="btn-link" href="#kontak">Lihat Website</a></div>
+<div class="project"><span class="project-badge">Demo Project</span><div class="project-image"></div><div class="project-content"><p>Local Service</p><h3>CleanPro</h3><p>Website jasa dengan tombol booking.</p></div><a class="btn-link" href="#kontak">Lihat Website</a></div>
+<div class="project"><div class="project-image"></div><div class="project-content"><p>Personal Brand</p><h3>Creator Portfolio</h3><p>Portfolio profesional untuk kreator.</p></div><a class="btn-link" href="#kontak">Lihat Website</a></div>
+</div>
+</div></section>
+
+<section id="proses"><div class="container">
+<div class="section-title"><h2>Proses Pengerjaan</h2><p>Sederhana, transparan, dan mudah dipahami klien.</p></div>
+<div class="process">
+<div class="step"><div class="num">01</div><h3>Konsultasi</h3><p>Bahas kebutuhan, konsep, dan target website.</p></div>
+<div class="step"><div class="num">02</div><h3>Desain</h3><p>Buat tampilan sesuai brand dan kebutuhan bisnis.</p></div>
+<div class="step"><div class="num">03</div><h3>Pengerjaan</h3><p>Website dikembangkan dan diuji di berbagai perangkat.</p></div>
+<div class="step"><div class="num">04</div><h3>Serah Terima</h3><p>Website siap dipakai dan dipromosikan.</p></div>
+</div>
+</div></section>
+
+<section id="kontak"><div class="container">
+<div class="cta">
+<h2>Siap Punya Website Profesional?</h2>
+<p>Ceritakan bisnis atau ide website kamu. Klik tombol di bawah untuk mulai konsultasi melalui WhatsApp.</p>
+<a class="btn" id="wa" href="#" target="_blank">💬 Konsultasi via WhatsApp</a>
+</div>
+</div></section>
+
+<footer><div class="container foot"><div>© 2026 Zyne Code. All rights reserved.</div><div>Website • Landing Page • Portfolio • Katalog</div></div></footer>
+
+<script>
+/* GANTI NOMOR DI BAWAH DENGAN NOMOR WHATSAPP KAMU.
+   Format: 628xxxxxxxxxx, tanpa + atau spasi. */
+const nomor = "6287831566403";
+const pesan = "Halo Zyne Code, saya tertarik membuat website. Saya ingin konsultasi tentang paket dan kebutuhan website.";
+document.querySelectorAll('a[href="#kontak"]').forEach(a=>{
+  a.addEventListener('click',()=>setTimeout(()=>{
+    document.getElementById('wa').href="https://wa.me/"+nomor+"?text="+encodeURIComponent(pesan);
+  },50));
+});
+document.getElementById('wa').href="https://wa.me/"+nomor+"?text="+encodeURIComponent(pesan);
+</script>
+</body>
+</html>
